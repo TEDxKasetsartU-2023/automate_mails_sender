@@ -131,3 +131,5 @@ dmypy.json
 # Custom
 /qtDesigner
 credentials.json
+*.html
+*.csv
