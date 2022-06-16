@@ -133,3 +133,6 @@ dmypy.json
 credentials.json
 *.html
 *.csv
+*.jpg
+*.png
+*.pdf
