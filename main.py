@@ -210,7 +210,7 @@ class Ui_MainWindow(object):
             None, "Import a HTML Template", "", "html (*.html)"
         )
         if check:
-            with open(path, "rt") as f:
+            with open(path, "rt", encoding="utf-8-sig") as f:
                 data = f.read()
                 self.html_editor.setPlainText(data)
 
